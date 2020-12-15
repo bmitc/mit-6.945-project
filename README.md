@@ -40,7 +40,7 @@ A small preview is below, which is the definition of the actor loop process that
 	 (message-name (car message))                             ;; Get the message's name.
 	 (message-value (cadr message))                           ;; Get the message's value.
          (is-synchronous? (equal? 'sync (caddr message))))        ;; Check synchronous flag.
-    (cond ((stop-message? message) state)                         ;; Check for the stop message, which stops the actor.
+    (cond ((stop-message? message) state)                         ;; Check for the stop message.
 	  (else (let ((procedure (get-message-processor-procedure message-name
 								  message-processors)))
 		  (if (equal? 'no-message-processor procedure)    ;; Check for a msg processor
