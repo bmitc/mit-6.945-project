@@ -10,17 +10,17 @@ As part of the course, we were to propose and complete a project, implementing i
 
 My [draft proposal](/reports-and-presentations/draft-proposal.pdf) contains some interesting ideas, such as:
 
-1. Concurrency Substrate: async/await and actors
+1. **Concurrency Substrate**: async/await and actors
 
-2. Dataflow Language: implementing dataflow processes like those found in LabVIEW or VHDL
+2. **Dataflow Language**: implementing dataflow processes like those found in LabVIEW or VHDL
 
-3. Teachable Actors: teaching actors new behavior via new message processors
+3. **Teachable Actors**: teaching actors new behavior via new message processors
 
-4. 2D Graphics the Way I Think: generate 2D graphics and animation declaratively
+4. **2D Graphics the Way I Think**: generate 2D graphics and animation declaratively
 
-5. Scheme Type System: adding types to Scheme without them getting in the way
+5. **Scheme Type System**: adding types to Scheme without them getting in the way
 
-6. Differential Forms Library: build a library to handle differential form calculations
+6. **Differential Forms Library**: build a library to handle differential form calculations
 
 In the end, I chose to implement async/await and actors in MIT/GNU Scheme, as I felt it was one that could be built off of to complete some of the other projects, most of which needed concurrency.
 
